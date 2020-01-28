@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
+body{
+    /* font-family: 'PT Sans Caption', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    /* background-image: url(http://tehnopark-m4.ru/__scale/uploads/s/v/5/r/v5rpwqjnpaxp/img/full_1FN4snhP.jpg?width=720&quality=92); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+}
+.login{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    background-color: rgb(80, 80, 80);
+}
+.top-menu {
+  margin: 0 60px;
+  position: relative;
+  background: #5A394E;    
+  box-shadow: 
+    inset 1px 0 0 rgba(255,255,255,.1), 
+    inset -1px 0 0 rgba(255,255,255,.1), 
+    inset 150px 0 150px -150px rgba(255,255,255,.12), 
+    inset -150px 0 150px -150px rgba(255,255,255,.12);
+}
+.menu-main {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  background-color: rgb(80, 80, 80);
+}
+.menu-main li {
+  display: inline-block;
+  margin-right: -4px;
+}
+.menu-main a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: rgb(230, 230, 230);
+  transition: .3s linear;
+}
+.menu-main a.current,
+.menu-main a:hover {background: rgba(0,0,0,.2);}
+@media (max-width: 680px) {
+.top-menu {margin: 0;}
+.menu-main li {
+  display: block;
+  margin-right: 0;
+}
+}
+
+@keyframes animatedBackground {
+    0 {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -600px 600px /* анимируем свойство background-position */
+    }
+}
+
+.fon{
+	/* height: 900px; задаем произвольную высоту и ширину блока */
+	width:100%;
+	background-image: url('https://i.pinimg.com/564x/36/98/00/369800dfffe4abaccbb3b3878c331162.jpg');
+	animation: animatedBackground 60s linear infinite;
+	-moz-animation: animatedBackground 60s linear infinite;
+	-webkit-animation: animatedBackground 60s linear infinite;
+     -o-animation: animatedBackground 60s linear infinite;
+     background-repeat: repeat;
+     display: flex;
+     flex-grow: 3;
+     height: 89vh;
+}
+.fon-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.content{
+    color: ivory;
+    padding-top: 20px;
+}
+
+.down{
+    height: 50px;
+    width:100%;
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(0, 0, 0, 1);
+    color: rgb(230, 230, 230);
+    display: inline-block;
+    text-align: center;
+    
+}
+.down a{
+    padding: 20px;
+}
+.data{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.089);
+}
+
+.main{
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    padding: 10px;
+    padding-top: 35px;
+    text-align: left;
+}
+
+.block{
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.603);
+}
+.block a{
+    font-family: 'Rubik', sans-serif;
+}

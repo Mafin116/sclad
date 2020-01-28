@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://ondras.zarovi.cz/sql/demo/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>WWW SQL Designer</title>
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1">
+	
+	<link rel="stylesheet" title="material-inspired" href="./WWW SQL Designer_files/material-inspired.css" media="all">
+	<link rel="alternate stylesheet" title="original" href="https://ondras.zarovi.cz/sql/demo/styles/original.css" media="all" disabled="">
+	<!--[if IE 6]><link rel="stylesheet" type="text/css" href="styles/ie6.css" /><![endif]-->
+	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="styles/ie7.css" /><![endif]-->
+	<link rel="stylesheet" href="./WWW SQL Designer_files/print.css" type="text/css" media="print">
+	<script type="text/javascript" src="./WWW SQL Designer_files/dropbox.min.js.Без названия"></script>
+
+	<script src="./WWW SQL Designer_files/oz.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/config.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/globals.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/visual.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/row.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/table.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/relation.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/key.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/rubberband.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/map.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/toggle.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/io.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/tablemanager.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/rowmanager.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/keymanager.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/window.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/options.js.Без названия"></script>
+	<script src="./WWW SQL Designer_files/wwwsqldesigner.js.Без названия"></script>
+</head>
+
+<body style="visibility: visible;">
+	<div id="area" class=""><svg width="3000" height="3000"><path stroke="#323232" stroke-width="2" fill="none" d="M 153 97 C 331 97 332 189 510 189"></path><path stroke="#F44336" stroke-width="2" fill="none" d="M 153 74 C 329 74 329 57 505 57"></path><path stroke="#E91E63" stroke-width="2" fill="none" d="M 153 120 C 291 120 292 483 430 483"></path><path stroke="#9C27B0" stroke-width="2" fill="none" d="M 153 143 C 285 143 285 653 417 653"></path></svg><div class="table" style="z-index: 4; left: 510px; top: 148px;"><table><thead><tr><td class="title" colspan="2">Груз</td></tr></thead><tbody title="" style="background-color: rgb(238, 238, 170); border-color: rgb(238, 238, 170);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title primary key">id груза</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(255, 200, 200); border-color: rgb(255, 200, 200);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">Название</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(200, 255, 200); border-color: rgb(200, 255, 200);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">Дата поступления</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(238, 238, 170); border-color: rgb(238, 238, 170);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">id накладной</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(238, 238, 170); border-color: rgb(238, 238, 170);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">id места на складе</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(255, 200, 200); border-color: rgb(255, 200, 200);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">Обьем</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(238, 238, 170); border-color: rgb(238, 238, 170);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">Откуда</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(255, 200, 200); border-color: rgb(255, 200, 200);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">Статус</div></td><td class="typehint"></td></tr></tbody></table></div><div class="table" style="z-index: 3; left: 430px; top: 442px;"><table><thead><tr><td class="title" colspan="2">Место на складе</td></tr></thead><tbody title="" class="" style="background-color: rgb(238, 238, 170); border-color: rgb(238, 238, 170);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title primary key">id места на складе</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(255, 200, 200); border-color: rgb(255, 200, 200);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">Заполненность</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(238, 238, 170); border-color: rgb(238, 238, 170);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">id груза</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(255, 200, 200); border-color: rgb(255, 200, 200);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">Обьем</div></td><td class="typehint"></td></tr></tbody></table></div><div class="table" style="z-index: 1; left: 10px; top: 10px;"><table><thead><tr><td class="title" colspan="2">Накладная</td></tr></thead><tbody title="" class="" style="background-color: rgb(238, 238, 170); border-color: rgb(238, 238, 170);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title primary key">id накладной</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(238, 238, 170); border-color: rgb(238, 238, 170);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">id клиента</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(238, 238, 170); border-color: rgb(238, 238, 170);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">id груза</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(238, 238, 170); border-color: rgb(238, 238, 170);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">id места на складе</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(238, 238, 170); border-color: rgb(238, 238, 170);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">id сотрудника</div></td><td class="typehint"></td></tr></tbody></table></div><div class="table" style="z-index: 2; left: 505px; top: 16px;"><table><thead><tr><td class="title" colspan="2" title="">Клиент</td></tr></thead><tbody title="" class="" style="background-color: rgb(238, 238, 170); border-color: rgb(238, 238, 170);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title primary key">id клиента</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(255, 200, 200); border-color: rgb(255, 200, 200);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">ФИО клиента</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(200, 255, 200); border-color: rgb(200, 255, 200);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">Дата рождения</div></td><td class="typehint"></td></tr></tbody></table></div><div class="table" style="z-index: 5; left: 417px; top: 612px;"><table><thead><tr><td class="title" colspan="2">Сотрудник</td></tr></thead><tbody title="" class="" style="background-color: rgb(238, 238, 170); border-color: rgb(238, 238, 170);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title primary key">id сотрудника</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(255, 200, 200); border-color: rgb(255, 200, 200);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">ФИО сотрудника</div></td><td class="typehint"></td></tr></tbody><tbody title="" class="" style="background-color: rgb(200, 255, 200); border-color: rgb(200, 255, 200);"><tr><td><div class="selected" style="display: none;">»&nbsp;</div><div class="title">Дата рождения</div></td><td class="typehint"></td></tr></tbody></table></div></div>
+
+	<div id="controls" style="z-index: 10;">
+		<div id="bar">
+			<div id="toggle" class="on"></div>
+			<input type="button" id="saveload" value="Сохранить / Загрузить">
+
+			<hr>
+
+			<input type="button" id="addtable" value="Добавить таблицу">
+			<input type="button" id="edittable" value="Редактировать таблицу" disabled="">
+			<input type="button" id="tablekeys" value="Ключи" disabled="">
+			<input type="button" id="removetable" value="Удалить таблицу" disabled="">
+			<input type="button" id="aligntables" value="Выровнять таблицы">
+			<input type="button" id="cleartables" value="Очистить таблицы">
+		
+			<hr>
+		
+			<input type="button" id="addrow" value="Добавить поле" disabled="">
+			<input type="button" id="editrow" value="Редактировать поле" disabled="">
+			<input type="button" id="uprow" class="small" value="Вверх" disabled=""><input type="button" id="downrow" class="small" value="Вниз" disabled="">
+			<input type="button" id="foreigncreate" value="Создать внешний ключ" disabled="">
+			<input type="button" id="foreignconnect" value="Присоединить внешний ключ" disabled="">
+			<input type="button" id="foreigndisconnect" value="Удалить внешний ключ" disabled="">
+			<input type="button" id="removerow" value="Удалить поле" disabled="">
+		
+			<hr>
+		
+			<input type="button" id="options" value="Опции">
+			<a href="https://github.com/ondras/wwwsqldesigner/wiki" target="_blank"><input type="button" id="docs" value="Документация"></a>
+		</div>
+	
+		<div id="rubberband" style="left: 1004px; top: 319px; width: 0px; height: 0px; visibility: hidden;"></div>
+
+		<div id="minimap"><div class="port" style="z-index: 1; width: 37px; height: 24px; left: 0px; top: 0px;"></div><div class="mini" style="width: 5px; height: 5px; left: 0px; top: 0px;"></div><div class="mini" style="width: 4px; height: 3px; left: 16px; top: 1px;"></div><div class="mini" style="width: 6px; height: 4px; left: 14px; top: 14px;"></div><div class="mini" style="width: 5px; height: 7px; left: 17px; top: 5px;"></div><div class="mini" style="width: 5px; height: 3px; left: 14px; top: 20px;"></div></div>
+	
+		<div id="background" style="width: 1263px; height: 847px; left: 0px; top: 0px; visibility: hidden;"></div>
+	
+		<div id="window" style="left: 312px; top: 281px; visibility: hidden;">
+			<div id="windowtitle"><img id="throbber" src="./WWW SQL Designer_files/throbber.gif" alt="Пожалуйста подождите..." title="Пожалуйста подождите..." style="visibility: hidden;">Редактировать таблицу</div>
+			<div id="windowcontent"><div id="table">
+		<table>
+			<tbody>
+				<tr>
+					<td>
+						<label id="tablenamelabel" for="tablename">Имя</label>
+					</td>
+					<td>
+						<input id="tablename" type="text">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label id="tablecommentlabel" for="tablecomment">Коментарий</label> 
+					</td>
+					<td>
+						<textarea rows="5" cols="40" id="tablecomment"></textarea>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div></div>
+			<input type="button" id="windowok" value="OK">
+			<input type="button" id="windowcancel" value="Отменить" style="">
+		</div>
+	</div> <!-- #controls -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<script type="text/javascript">
+		var d = new SQL.Designer();
+	</script>
+
+
+</body></html>
